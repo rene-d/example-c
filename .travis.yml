@@ -1,7 +1,7 @@
 language: c
 sudo: false # only for faster builds
 script:
-  - gcc -coverage -O0 hello.c -o hello
+  - gcc -coverage -std=c11 -O0 hello.c -o hello
   - ./hello
   - gcov hello.c
 
