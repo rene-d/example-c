@@ -18,10 +18,13 @@ int main()
        puts("mais pas ici!!!");
        }
        
-       for (int i = 0;i<100;++i)
-       if (rand() % 2)
-       putchar('.');
-       printf("fin\n");
+       int n=0;
+       for (int i = 0;i<10000;++i)
+            if (rand() % 5)
+                n--;
+            else
+                n++;
+       printf("fin %d\n", n);
        
        
 
