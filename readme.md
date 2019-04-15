@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/rene-d/example-c.svg?branch=master)](https://travis-ci.org/rene-d/example-c)
+[![codecov](https://codecov.io/gh/rene-d/example-c/branch/master/graph/badge.svg)](https://codecov.io/gh/rene-d/example-c)
 
 
 Codecov C/C++ Example
